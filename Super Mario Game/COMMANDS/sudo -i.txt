@@ -1,0 +1,14 @@
+sudo -i
+yum -y update
+yum -y install docker*
+systemctl start docker
+systemctl enable docker
+yum -y install git
+git clone https://github.com/kushlendrasingh02/FullScreenMario.git
+cd FullScreenMario/
+celar
+docker images
+docker build -t supermario .
+docker ps
+docker images
+docker run -p 80:80 supermario

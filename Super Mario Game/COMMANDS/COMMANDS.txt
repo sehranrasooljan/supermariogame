@@ -1,0 +1,52 @@
+COMMANDS
+
+ssh -i key ec2-user@IP (one linux to another linux)
+
+Kernel version:- uname -r
+
+whoami (checks the currently active user)
+
+man "name of the command" (manual command)
+
+echo (display line of text)
+
+whatis "name of the command"
+
+command to update the system :- yum install update OR yum -y update
+
+to become root :- sudo -i
+
+to switch user :- su "name of the user"
+
+-y (if question is asked, the answer is YES)
+
+uptime (check the uptime of the machine)
+
+pwd (present/print working directory)
+
+cd(change directory)
+
+making new directory :- mkdir
+
+ls (list command):- ls -l, ls -ltr
+
+touch :- creates empty text file
+
+echo "hello this is demo file" > sample.txt (updating the text file once),    echo "hello this is demo file" >> sample.txt (appending the file and maintaining the older contents of the files)
+
+Renaming the file:- mv "old name of the file" "new name of the file"
+
+COPY FILE :- cp "name of the file" "path"
+
+du(disk utilization) :- shows the space/size of the file in the disk
+
+Creating a new user :- useradd "name of the user",    setting password :- passwd "name of the user"
+
+shows all the users :- cat /etc/passwd, cat /etc/shadow
+
+number of groups :- cat /etc/group
+
+MAKING0 GROUP :- groupadd "name of the group"
+
+CHANGING THE GROUP OF :- man usermod,  usermod -G "destination" "which group
+"    
